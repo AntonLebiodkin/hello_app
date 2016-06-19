@@ -11,7 +11,8 @@ def index(request):
     return render(request, 'name_app/index.html')
 
 
-epithets = ["грустный", "старина", "хуёвый"]
+epithets = ["грустный", "старина", "мрачный", "прекрасный", "мутный", "грозный", "великий",
+            "могучий", "невероятный", "непобедимый", "суперский"]
 current_name = ""
 current_epithet = {}
 
